@@ -18,3 +18,29 @@
    <button type="submit">Submit</button>
 </form>
 
+
+
+sessionStorage.setItem("name", "John Doe");
+
+// Get saved data from sessionStorage
+let name = sessionStorage.getItem("name");
+
+// Remove saved data from sessionStorage
+sessionStorage.removeItem("name");
+
+// Remove all saved data from sessionStorage
+sessionStorage.clear();
+
+
+localStorage.setItem("themePreference", "Dark");
+
+// Get saved data from localStorage
+const themePreference = localStorage.getItem("themePreference");
+
+// Remove saved data from localStorage
+localStorage.removeItem("themePreference");
+
+// Remove all saved data from localStorage
+localStorage.clear();
+
+
